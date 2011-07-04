@@ -1,0 +1,199 @@
+===============================================================================
+Create branch 'dummy-branch'
+===============================================================================
+{
+  "after": "7322de8f7ee510f44d46b203f2913f951660b424", 
+  "base_ref": "refs\/heads\/master", 
+  "before": "0000000000000000000000000000000000000000", 
+  "commits": [], 
+  "compare": "https:\/\/github.com\/franciscoruiz\/testing-hooks\/compare\/dummy-branch", 
+  "created": true, 
+  "deleted": false, 
+  "forced": true, 
+  "pusher": {
+    "email": "quiesagua@gmail.com", 
+    "name": "franciscoruiz"
+  }, 
+  "ref": "refs\/heads\/dummy-branch", 
+  "repository": {
+    "created_at": "2011\/07\/04 04:27:34 -0700", 
+    "description": "Dummy project used to test GitHub's post-receive hooks", 
+    "fork": false, 
+    "forks": 1, 
+    "has_downloads": true, 
+    "has_issues": true, 
+    "has_wiki": true, 
+    "homepage": "", 
+    "name": "testing-hooks", 
+    "open_issues": 0, 
+    "owner": {
+      "email": "quiesagua@gmail.com", 
+      "name": "franciscoruiz"
+    }, 
+    "private": false, 
+    "pushed_at": "2011\/07\/04 04:31:00 -0700", 
+    "size": 100, 
+    "url": "https:\/\/github.com\/franciscoruiz\/testing-hooks", 
+    "watchers": 1
+  }
+}
+===============================================================================
+
+===============================================================================
+Commit to master
+===============================================================================
+{
+  "after": "12c16dfec41f73ae4eb03337db8570f166617536", 
+  "base_ref": null, 
+  "before": "7322de8f7ee510f44d46b203f2913f951660b424", 
+  "commits": [
+    {
+      "added": [], 
+      "author": {
+        "email": "franciscoruiz@2degreesnetwork.com", 
+        "name": "Francisco Ruiz", 
+        "username": "franciscoruiz"
+      }, 
+      "distinct": true, 
+      "id": "12c16dfec41f73ae4eb03337db8570f166617536", 
+      "message": "Updated project info", 
+      "modified": [
+        "README"
+      ], 
+      "removed": [], 
+      "timestamp": "2011-07-04T04:37:27-07:00", 
+      "url": "https:\/\/github.com\/franciscoruiz\/testing-hooks\/commit\/12c16dfec41f73ae4eb03337db8570f166617536"
+    }
+  ], 
+  "compare": "https:\/\/github.com\/franciscoruiz\/testing-hooks\/compare\/7322de8...12c16df", 
+  "created": false, 
+  "deleted": false, 
+  "forced": false, 
+  "pusher": {
+    "email": "quiesagua@gmail.com", 
+    "name": "franciscoruiz"
+  }, 
+  "ref": "refs\/heads\/master", 
+  "repository": {
+    "created_at": "2011\/07\/04 04:27:34 -0700", 
+    "description": "Dummy project used to test GitHub's post-receive hooks", 
+    "fork": false, 
+    "forks": 1, 
+    "has_downloads": true, 
+    "has_issues": true, 
+    "has_wiki": true, 
+    "homepage": "", 
+    "name": "testing-hooks", 
+    "open_issues": 0, 
+    "owner": {
+      "email": "quiesagua@gmail.com", 
+      "name": "franciscoruiz"
+    }, 
+    "private": false, 
+    "pushed_at": "2011\/07\/04 04:37:46 -0700", 
+    "size": 100, 
+    "url": "https:\/\/github.com\/franciscoruiz\/testing-hooks", 
+    "watchers": 1
+  }
+}
+===============================================================================
+
+===============================================================================
+Merge 'master' into 'dummy-branch'
+===============================================================================
+{
+  "after": "12c16dfec41f73ae4eb03337db8570f166617536", 
+  "base_ref": "refs\/heads\/master", 
+  "before": "7322de8f7ee510f44d46b203f2913f951660b424", 
+  "commits": [
+    {
+      "added": [], 
+      "author": {
+        "email": "franciscoruiz@2degreesnetwork.com", 
+        "name": "Francisco Ruiz", 
+        "username": "franciscoruiz"
+      }, 
+      "distinct": false, 
+      "id": "12c16dfec41f73ae4eb03337db8570f166617536", 
+      "message": "Updated project info", 
+      "modified": [
+        "README"
+      ], 
+      "removed": [], 
+      "timestamp": "2011-07-04T04:37:27-07:00", 
+      "url": "https:\/\/github.com\/franciscoruiz\/testing-hooks\/commit\/12c16dfec41f73ae4eb03337db8570f166617536"
+    }
+  ], 
+  "compare": "https:\/\/github.com\/franciscoruiz\/testing-hooks\/compare\/7322de8...12c16df", 
+  "created": false, 
+  "deleted": false, 
+  "forced": false, 
+  "pusher": {
+    "email": "quiesagua@gmail.com", 
+    "name": "franciscoruiz"
+  }, 
+  "ref": "refs\/heads\/dummy-branch", 
+  "repository": {
+    "created_at": "2011\/07\/04 04:27:34 -0700", 
+    "description": "Dummy project used to test GitHub's post-receive hooks", 
+    "fork": false, 
+    "forks": 1, 
+    "has_downloads": true, 
+    "has_issues": true, 
+    "has_wiki": true, 
+    "homepage": "", 
+    "name": "testing-hooks", 
+    "open_issues": 0, 
+    "owner": {
+      "email": "quiesagua@gmail.com", 
+      "name": "franciscoruiz"
+    }, 
+    "private": false, 
+    "pushed_at": "2011\/07\/04 04:38:05 -0700", 
+    "size": 100, 
+    "url": "https:\/\/github.com\/franciscoruiz\/testing-hooks", 
+    "watchers": 1
+  }
+}
+===============================================================================
+
+===============================================================================
+Delete branch 'dummy-branch'
+===============================================================================
+{
+  "after": "0000000000000000000000000000000000000000", 
+  "base_ref": null, 
+  "before": "12c16dfec41f73ae4eb03337db8570f166617536", 
+  "commits": [], 
+  "compare": "https:\/\/github.com\/franciscoruiz\/testing-hooks\/compare\/12c16df...0000000", 
+  "created": false, 
+  "deleted": true, 
+  "forced": true, 
+  "pusher": {
+    "email": "quiesagua@gmail.com", 
+    "name": "franciscoruiz"
+  }, 
+  "ref": "refs\/heads\/dummy-branch", 
+  "repository": {
+    "created_at": "2011\/07\/04 04:27:34 -0700", 
+    "description": "Dummy project used to test GitHub's post-receive hooks", 
+    "fork": false, 
+    "forks": 1, 
+    "has_downloads": true, 
+    "has_issues": true, 
+    "has_wiki": true, 
+    "homepage": "", 
+    "name": "testing-hooks", 
+    "open_issues": 0, 
+    "owner": {
+      "email": "quiesagua@gmail.com", 
+      "name": "franciscoruiz"
+    }, 
+    "private": false, 
+    "pushed_at": "2011\/07\/04 04:38:31 -0700", 
+    "size": 100, 
+    "url": "https:\/\/github.com\/franciscoruiz\/testing-hooks", 
+    "watchers": 1
+  }
+}
+===============================================================================
