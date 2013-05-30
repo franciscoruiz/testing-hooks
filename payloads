@@ -11,7 +11,7 @@ Create branch 'dummy-branch'
   "deleted": false, 
   "forced": true, 
   "pusher": {
-    "email": "quiesagua@gmail.com", 
+    "email": "franciscoruiz@example.com", 
     "name": "franciscoruiz"
   }, 
   "ref": "refs\/heads\/dummy-branch", 
@@ -27,7 +27,7 @@ Create branch 'dummy-branch'
     "name": "testing-hooks", 
     "open_issues": 0, 
     "owner": {
-      "email": "quiesagua@gmail.com", 
+      "email": "franciscoruiz@example.com", 
       "name": "franciscoruiz"
     }, 
     "private": false, 
@@ -50,7 +50,7 @@ Commit to master
     {
       "added": [], 
       "author": {
-        "email": "franciscoruiz@2degreesnetwork.com", 
+        "email": "franciscoruiz@example.com", 
         "name": "Francisco Ruiz", 
         "username": "franciscoruiz"
       }, 
@@ -70,7 +70,7 @@ Commit to master
   "deleted": false, 
   "forced": false, 
   "pusher": {
-    "email": "quiesagua@gmail.com", 
+    "email": "franciscoruiz@example.com", 
     "name": "franciscoruiz"
   }, 
   "ref": "refs\/heads\/master", 
@@ -86,7 +86,7 @@ Commit to master
     "name": "testing-hooks", 
     "open_issues": 0, 
     "owner": {
-      "email": "quiesagua@gmail.com", 
+      "email": "franciscoruiz@example.com", 
       "name": "franciscoruiz"
     }, 
     "private": false, 
@@ -109,7 +109,7 @@ Merge 'master' into 'dummy-branch'
     {
       "added": [], 
       "author": {
-        "email": "franciscoruiz@2degreesnetwork.com", 
+        "email": "franciscoruiz@example.com", 
         "name": "Francisco Ruiz", 
         "username": "franciscoruiz"
       }, 
@@ -129,7 +129,7 @@ Merge 'master' into 'dummy-branch'
   "deleted": false, 
   "forced": false, 
   "pusher": {
-    "email": "quiesagua@gmail.com", 
+    "email": "franciscoruiz@example.com", 
     "name": "franciscoruiz"
   }, 
   "ref": "refs\/heads\/dummy-branch", 
@@ -145,7 +145,7 @@ Merge 'master' into 'dummy-branch'
     "name": "testing-hooks", 
     "open_issues": 0, 
     "owner": {
-      "email": "quiesagua@gmail.com", 
+      "email": "franciscoruiz@example.com", 
       "name": "franciscoruiz"
     }, 
     "private": false, 
@@ -170,7 +170,7 @@ Delete branch 'dummy-branch'
   "deleted": true, 
   "forced": true, 
   "pusher": {
-    "email": "quiesagua@gmail.com", 
+    "email": "franciscoruiz@example.com", 
     "name": "franciscoruiz"
   }, 
   "ref": "refs\/heads\/dummy-branch", 
@@ -186,7 +186,7 @@ Delete branch 'dummy-branch'
     "name": "testing-hooks", 
     "open_issues": 0, 
     "owner": {
-      "email": "quiesagua@gmail.com", 
+      "email": "franciscoruiz@example.com", 
       "name": "franciscoruiz"
     }, 
     "private": false, 
